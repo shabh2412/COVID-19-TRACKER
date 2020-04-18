@@ -29,15 +29,10 @@ include "logic.php";
         <h5 class="text-muted">A simple and opensource project to keep track of all COVID-19 Cases around the world</h5>
     </div>
     <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-12">
-            <a href="./CORONA-TRACKER/CovidMap.php" class="my-anchor">Check Out Map version</a>
-            </div>
-        </div>
         <div class="row">
             <div class="col-4">
                 <h5>Confirmed</h5>
-                <p class="text-danger">
+                <p class="text-warning">
                     <?php echo $totalConfirmed?>
                 </p>
             </div>
@@ -49,7 +44,7 @@ include "logic.php";
             </div>
             <div class="col-4">
                 <h5>Deceased</h5>
-                <p class="text-muted">
+                <p class="text-danger">
                     <?php echo $totalDeaths?>
                 </p>
             </div>
